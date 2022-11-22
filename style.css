@@ -1,0 +1,105 @@
+ * {
+    box-sizing: border-box
+}
+
+      body {
+      font-family: 'Roboto', sans-serif;
+      margin:0}
+
+      .mySlides {display: none}
+
+      img {
+        vertical-align: middle;
+        width: 100%;
+        height: auto;
+    }
+
+      .slideshow-container {
+      max-width: 1600px;
+      max-height: 996px;
+      position: relative;
+      margin: auto;
+      }
+
+    
+
+      /* Подпись под изображением */
+      .text1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 66px;
+        
+        background: linear-gradient(270deg, #1EDDE0 13.26%, #8BDA41 51.01%, #EF001B 107.89%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+
+      position: absolute;
+      bottom: 49px;
+      left: 345px;
+      }
+
+          .text2 {
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 56px;
+              line-height: 66px;
+    
+            background: linear-gradient(270deg, #03FE8F 4.61%, #EBDCFF 57.91%, #FF98F3 92.2%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+    
+              position: absolute;
+              bottom: 49px;
+              left: 49px;
+          }
+
+          .text3 {
+                font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 56px;
+                    line-height: 66px;
+            
+                background: linear-gradient(270deg, #FFFFFF 13.26%, #693CF9 60.87%, #F475EB 107.89%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+
+                position: absolute;
+                bottom: 55px;
+                left: 56px;
+          }
+
+     /* Точки/маркеры/указатели */
+    .dots {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+    }
+     
+     .dot {
+      cursor: pointer;
+      height: 16px;
+      width: 16px;
+      background-color: gray;
+      border-radius: 50%;
+      display: inline-block;
+      transition: 250ms linear;
+      }
+
+      .active, .dot:hover {
+            width: 40px;
+            height: 16px;
+            color: black;
+            border-radius: 30px;
+      }
+
+    
